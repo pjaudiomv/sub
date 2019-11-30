@@ -1,4 +1,4 @@
-CREATE TABLE `sub`.`subscribers` (
+CREATE TABLE `subscribers` (
   `id` INT AUTO_INCREMENT ,
   `contact` VARCHAR(45) NOT NULL,
   `is_admin` bit DEFAULT 0,
